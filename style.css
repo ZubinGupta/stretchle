@@ -1,0 +1,50 @@
+/* Container for the grid */
+.grid {
+  display: block;
+  margin: 30px auto;
+  width: max-content;
+}
+
+/* Each letter box */
+.box {
+  width: 48px;
+  height: 48px;
+  border: 2px solid #888;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2em;
+  background: #222;
+  color: #fff;
+  text-transform: uppercase;
+  transition: background 0.2s, border 0.2s;
+}
+
+/* Status classes must come after .box and be at least as specific */
+.box.right {
+  background: #6aaa64;
+  border-color: #6aaa64;
+  color: #fff;
+}
+.box.wrong {
+  background: #c9b458;
+  border-color: #c9b458;
+  color: #fff;
+}
+.box.empty {
+  background: #3a3a3c;
+  border-color: #3a3a3c;
+  color: #fff;
+}
+
+/* Highlight the currently selected box */
+.select {
+  outline: 2px solid #fff;
+  z-index: 1;
+}
+
+.grid-row {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 8px;
+}
