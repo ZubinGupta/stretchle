@@ -1,5 +1,5 @@
 # Stretchle
-#### Video Demo:  <URL HERE>
+#### Video Demo:  <[URL HERE](https://youtu.be/iNjnxU0fjh0)>
 #### Description:
 This is a wordle variant I created, that to my knowledge has not been created before.
 THe premise is that instead of having a fixed word length, the word can be any length from 5-9 letters.
